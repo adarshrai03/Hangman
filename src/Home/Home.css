@@ -1,0 +1,32 @@
+.Homepage{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/src/assets/Homepage/Homepage.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.button{
+    /* height: 30px; */
+    width: 210px;
+    cursor: pointer;
+    margin-bottom: -304px;
+    margin-right: -209px;
+    
+}
+.button img{
+    border-radius: 150px;
+}
+
+
+.Homepage .logo{
+    margin-top: -150px;
+    height: 250px;
+    width: 350px;
+}

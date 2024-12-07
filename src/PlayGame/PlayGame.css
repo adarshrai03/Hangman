@@ -1,0 +1,134 @@
+.main-playgame{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/Playgame/PlayGameBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.sub-playgame1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%
+}
+
+.sub-playgame2{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sub-playgame2a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.game-over-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    color: #721c24;
+    margin-top: 20px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-image: url("../assets/Playgame/GameOver.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border: 2px solid rgb(140, 65, 0);
+    border-radius: 20px;
+}
+
+.game-over-box p{
+    color: #c5c5c5;
+    font-size: 35px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+.game-over-box a {
+    color: #ffd3ac;
+    font-size: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-style:oblique;
+    font-weight: bolder;
+    
+    
+    
+}
+
+.game-over-box a:hover {
+    text-decoration: underline;
+}
+
+.selected-word{
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: rgb(255, 166, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.hint{
+    color: #ffd3ac;
+    font-size: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-style:oblique;
+    font-weight: bolder;
+}
+
+.game-win-box{
+    
+    height: 500px;
+    width: 400px;
+    background-image: url("../assets/Playgame/GameWon.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border: 2px solid rgb(140, 65, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #331602;
+    font-size: 35px;
+    font-style:oblique;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: "Single Day", cursive;
+    
+    
+}
+
+.return{
+    font-size: 25px;
+    color: rgb(0, 58, 95);
+    margin-left: 60px;
+}
+
+
+.hint{
+    font-weight: 100;
+    margin-top: 50px;
+}

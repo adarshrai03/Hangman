@@ -1,0 +1,53 @@
+.TextInputForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.TextInputButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.TIB button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    background-color:transparent;
+    width: 100px;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+    color: rgb(200, 137, 43);
+    border: 2px solid rgb(0, 66, 0);
+    transition: all;
+    transition-duration: 0.5s;
+    
+}
+
+.TIB button:hover{
+    background-color: rgb(154, 98, 15);
+    color: gainsboro;
+
+}
+
+.TextInputForm .suggestionText label{
+    font-size: 35px;
+    padding: 10px;
+    font-family: "Single Day", cursive;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(165, 108, 42)
+}
+
+
+  
+
+
+
+

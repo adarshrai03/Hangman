@@ -1,0 +1,27 @@
+.keyboard-container{
+    display: flex;
+    justify-content: center; /* Centers the keyboard horizontally */
+    width: 80%; /* Adjust this value to control the width */
+    margin: auto;
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap; /* Wraps to the next row if needed */
+    gap: 8px; /* Adds spacing between buttons */
+    justify-content:center;
+}
+
+.keyboard-button{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    border: 2px solid orange;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+    border-radius: 50px;
+    
+}
+
