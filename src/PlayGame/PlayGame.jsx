@@ -98,7 +98,7 @@ function PlayGame(){
                             <div className="sub-playgame2">
 
 
-                                <div className="hint">
+                                <div className="gemini-hint">
                                     <p>Hint : {result}</p>
                                 </div>
 
