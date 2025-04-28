@@ -27,7 +27,7 @@ import {
       ],
     });
   
-    const result = await chatSession.sendMessage("what is the meaning of "+ prompt + "in one small sentence in 4 to 5 words without using the giving word in sentence , (give us a meaningfull and easy hint so that the people gussed the word easily , give the hint in based on daily used in easy and understandble language and also don't use hint word , just give me only core sentence without any extra suggestion word like hint or any other html tags )");
+    const result = await chatSession.sendMessage("Create a simple and short hint for the word: " + prompt + ". The hint should be one easy-to-understand sentence (about 5 to 10 words). Do not use the word itself or any part of the word. Write in simple daily-life English that even a school student can easily understand. Only give the hint sentence without adding any extra text, HTML, or labels.");
     console.log(result.response.text());
     return result.response.text();
   }
