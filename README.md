@@ -1,8 +1,27 @@
-# React + Vite
+### Live Demo - [🔗 https://hangman-lemon-xi.vercel.app/ ]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🛠️ Built With:
+- React (Vite)
+- HTML, CSS, JavaScript
+- Gemini API (for generating hints)
+- Vercel (for deployment)
 
-Currently, two official plugins are available:
+### About Game
+Hangman - Two Player AI-Powered Word Guessing Game , Hangman is a classic word-guessing game with a modern twist!
+In this version, the game is designed for two players and includes AI-generated hints using the Gemini API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🎮 How it work
+1. Player 1 enters a secret word (in hidden/password format) and clicks Submit.
+2. That word is sent to Gemini AI, which generates a short, easy-to-understand hint without using the word itself.
+3. The game then moves to a new screen where Player 2 sees:
+    - The hint
+    - A series of blank dashes for each letter
+    - An on-screen keyboard to start guessing!
+4. With each wrong guess, the hangman figure begins to appear.
+5. Guess the word correctly to win, or get the man hanged after too many wrong tries!
+
+### 🌟 Key Features:
+* Two-player interactive gameplay
+* Gemini AI-powered smart hint generation
+* Clean UI with keyboard-based letter selection
+* Classic hangman logic with a modern, fun twist!
